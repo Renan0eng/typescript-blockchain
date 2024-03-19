@@ -107,7 +107,3 @@ bob.sendMoney(23, alice.publicKey)
 alice.sendMoney(5, bob.publicKey)
 
 console.log(Chain.instance)
-
-console.log('Carteira de Satoshi:', satoshi)
-console.log('Carteira de Bob:', bob)
-console.log('Carteira de Alice:', alice)
