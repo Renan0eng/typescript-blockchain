@@ -4,22 +4,22 @@ import { Chain, Wallet } from './blockchan'
 
 const app = express()
 
-const mysql = require('mysql')
+// const mysql = require('mysql')
 
-const connection = mysql.createConnection({
-  host: 'localhost',
-  user: 'root',
-  password: 'root',
-  database: 'blockchain'
-})
+// const connection = mysql.createConnection({
+//   host: 'localhost',
+//   user: 'root',
+//   password: 'root',
+//   database: 'blockchain'
+// })
 
-connection.connect((err: any) => {
-  if (err) {
-    console.log('Erro ao conectar ao banco de dados', err)
-  } else {
-    console.log('Conexão com o banco de dados estabelecida')
-  }
-})
+// connection.connect((err: any) => {
+//   if (err) {
+//     console.log('Erro ao conectar ao banco de dados', err)
+//   } else {
+//     console.log('Conexão com o banco de dados estabelecida')
+//   }
+// })
 
 async function startServer() {
   try {
